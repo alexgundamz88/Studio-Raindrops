@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--Run-->
+<html lang="en">
+	<head>
+		<title>Summer Rain</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>STUDIO RAINDROPS</h1>
+			</header>
+			<nav>
+                <ul id="desktop">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="artists.html">ARTISTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <ul id="mobile">
+                    <li><a id="show" href="index.html">STUDIO RAINDROPS</a></li>
+                    <div id="menu">
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li><a href="artists.html">ARTISTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="show()">
+                        <div id="bars">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </a>
+                </ul>    
+			</nav>
+			<main>
+				<h2>Run</h2>
+                <div class="game">
+                    <iframe src="games/run/run.html" height="500px" width="100%" frameborder="0"></iframe>
+                </div>
+                <h2>Info</h2>
+                <p>
+                    Run is an endless runner game.<br>Created by Summer Rain for CISGAME2 using the Construct 3 engine.
+                </p><br>
+                <p>
+                    Rules & Controls<br>Use your finger or mouse to navigate through the game.<br>Tap(click) to jump.
+                </p><br>
+                <p>
+                    *NOTES*<br>This game wen through development hell.<br>I started this game off as a standard platformer, but no matter what I did it just wasn't fun.<br>After some playtesting I found out that people had a little bit of fun trying to beat the clock, so I turned it into a speedrunning challenge and shifted the focus to beating the clock.<br>But even this change wasn't very fun.<br> Eventually, I decided to scrap the platformer soncept and work on an endless runner with the same assets.<br>I think this version is much more accessible and entertaining.
+                </p>
+			</main>
+			<footer>
+				Copyright &copy; 2019 Studio Raindrops<br>
+				Alexander Hwang
+			</footer>
+		</div>
+        <script src="script.js"></script>
+	</body>
+</html>

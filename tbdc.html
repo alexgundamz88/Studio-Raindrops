@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--TBDC-->
+<html lang="en">
+	<head>
+		<title>Summer Rain</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>STUDIO RAINDROPS</h1>
+			</header>
+			<nav>
+                <ul id="desktop">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="artists.html">ARTISTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <ul id="mobile">
+                    <li><a id="show" href="index.html">STUDIO RAINDROPS</a></li>
+                    <div id="menu">
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li><a href="artists.html">ARTISTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="show()">
+                        <div id="bars">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </a>
+                </ul>    
+			</nav>
+			<main>
+				<h2>Text Based Dungeon Crawler</h2>
+                <div class="game">
+                    <iframe src="https://tbdc.atlanza.repl.run/" height="500px" width="100%" frameborder="0"></iframe>
+                </div>
+                <h2>Info</h2>
+                <p>
+                    The Little Tooth Fairy is a stripped down flappy bird clone.<br>Created by Summer Rain for CISGAME403 using the python.
+                </p><br>
+                <p>
+                    Rules & Controls<br>Click on the direction you wish to move in.
+                </p>
+			</main>
+			<footer>
+				Copyright &copy; 2019 Studio Raindrops<br>
+				Alexander Hwang
+			</footer>
+		</div>
+        <script src="script.js"></script>
+	</body>
+</html>

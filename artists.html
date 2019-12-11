@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--artists-->
+<html lang="en">
+	<head>
+		<title>Artists</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>STUDIO RAINDROPS</h1>
+			</header>
+			<nav>
+                <ul id="desktop">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="artists.html">ARTISTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <ul id="mobile">
+                    <li><a id="show" href="index.html">STUDIO RAINDROPS</a></li>
+                    <div id="menu">
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li><a href="artists.html">ARTISTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="show()">
+                        <div id="bars">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </a>
+                </ul>    
+			</nav>
+			<main>
+				<h2>Our Artists</h2>
+                <table id="artists">
+					<tr>
+						<th>Blush</th>
+						<th>Summer Rain</th>
+					</tr>
+					<tr>
+						<td><a href="blush.html"><img src="images/blush.png"  height="150" width="245" alt="Blush"></a></td>
+						<td><a href="summerRain.html"><img src="images/summer.png"  height="200" width="245" alt="Summer Rain"></a></td>
+					</tr>
+					<tr>
+						<td style="color:#333; text-shadow:None;">Illustrator / Animator</td>
+						<td style="color:#333; text-shadow:None;">Software Developer / Sound Engineer</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</main>
+			<footer>
+				Copyright &copy; 2019 Studio Raindrops<br>
+				Alexander Hwang
+			</footer>
+		</div>
+        <script src="script.js"></script>
+	</body>
+</html>

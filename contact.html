@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--contact-->
+<html lang="en">
+	<head>
+		<title>Contact</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>STUDIO RAINDROPS</h1>
+			</header>
+			<nav>
+                <ul id="desktop">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="artists.html">ARTISTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <ul id="mobile">
+                    <li><a id="show" href="index.html">STUDIO RAINDROPS</a></li>
+                    <div id="menu">
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li><a href="artists.html">ARTISTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="show()">
+                        <div id="bars">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </a>
+                </ul>    
+			</nav>
+			<main>
+				<h2>Contact Us</h2>
+                <p>
+                    The best way to get in touch is to mention us on our discord server below.
+                </p>
+                <div class="chat">
+                    <iframe src="https://titanembeds.com/embed/653519275621089281" height="500px" width="100%" frameborder="0"></iframe>
+                </div>
+                <p>
+                    Alternately, you can send us an e-mail using the form below.
+                </p>
+                <form method="post" name="myContact" id="myContact">
+                    <label for="myName">*Name: </label>
+                    <textarea name="myName" id="myName" rows="1" cols="128" required="required"></textarea>
+                    <label for="myEmail">*E-mail: </label>
+                    <textarea name="myEmail" id="myEmail" rows="1" cols="128" required="required"></textarea>
+                    <label for="myMessage">*Message: </label>
+                    <textarea name="myMessage" id="myMessage" rows="8" cols="128" required="required"></textarea>
+                    <input type="submit" id="mySubmit" name="mySubmit" value="Send">
+                </form>
+			</main>
+			<footer>
+				Copyright &copy; 2019 Studio Raindrops<br>
+				Alexander Hwang
+			</footer>
+		</div>
+        <script src="script.js"></script>
+	</body>
+</html>

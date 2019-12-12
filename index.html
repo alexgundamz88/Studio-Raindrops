@@ -39,23 +39,29 @@
 			</nav>
 			<main class="home">
 				<h3>TAKE A BREATHER, HAVE SOME FUN!</h3>
+                <audio id="audioID">
+                    <source src="sounds/click.mp3" type="audio/mpeg">
+                </audio>
                 <table id="hTable">
 					<tr>
 						<th>
                             <a class="button" href="projects.html">
-                                <span>Check our Projects!</span>
+                                <span onmouseenter="playAudio()">Check our Projects!</span>
                             </a>
                         </th>
 						<th>
                             <a class="button" href="artists.html">
-                                <span>Check our Artists!</span>
+                                <span onmouseenter="playAudio()">Check our Artists!</span>
                             </a>
                         </th>
 					</tr>
 				</table>
 			</main>
 			<footer>
-				Copyright &copy; 2019 Studio Raindrops<br>
+                <audio controls="controls">
+                    <source src="sounds/rain.mp3" type="audio/mpeg">
+                </audio>
+				<br>Copyright &copy; 2019 Studio Raindrops<br>
 				Alexander Hwang
 			</footer>
 		</div>
